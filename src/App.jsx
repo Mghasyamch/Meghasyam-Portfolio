@@ -95,7 +95,7 @@ function App() {
       <section id="contact" className="contact">
         <h2>Contact</h2>
         <p>Email: meghasyamchavali@gmail.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/siva-naga-megha-syam-chavali-942584227/">linkedin.com/in/yourprofile</a></p>
         <p>GitHub: <a href="https://github.com/yourgithub">github.com/yourgithub</a></p>
       </section>
     </div>
