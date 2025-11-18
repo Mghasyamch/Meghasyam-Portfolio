@@ -40,7 +40,10 @@ function App() {
           <p>Entry-level Developer. Creative Learner. Problem Solver.</p>
         </div>
         <div className="hero-image">
-          <img src="public\megha.jpg" alt="Megha Syam Ch" />
+          <img
+            src={`${import.meta.env.BASE_URL}megha.jpg`}
+            alt="Megha Syam Ch"
+          />
         </div>
       </section>
 
@@ -138,7 +141,11 @@ function App() {
 
       <section id="resume" className="resume">
         <h2>Resume</h2>
-        <a href="/Megha-Syam-Resume.pdf" download className="download-btn">
+        <a
+          href={`${import.meta.env.BASE_URL}Megha-Syam-Resume.pdf`}
+          download
+          className="download-btn"
+        >
           📄 Download Resume
         </a>
       </section>
