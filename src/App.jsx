@@ -40,7 +40,7 @@ function App() {
           <p>Entry-level Developer. Creative Learner. Problem Solver.</p>
         </div>
         <div className="hero-image">
-          <img src="/megha.jpg" alt="Megha Syam Chavali" />
+          <img src="public\megha.jpg" alt="Megha Syam Chavali" />
         </div>
       </section>
 
