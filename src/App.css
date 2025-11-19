@@ -23,9 +23,8 @@ body,
 
 /* App wrapper (for fixed navbar spacing) */
 .app {
-  .app {
-    padding-top: 70px; /* for desktop-ish widths */
-  }
+  padding-top: 80px; /* desktop navbar height */
+  min-height: 100vh;
 }
 
 .app.dark-theme {
@@ -221,8 +220,11 @@ a:hover {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-  /* Navbar stacks nicely */
+  .app {
+    padding-top: 140px; /* navbar is taller when items wrap on mobile */
+  }
 
+  /* Navbar stacks nicely */
   .navbar {
     flex-direction: column;
     align-items: flex-start;
